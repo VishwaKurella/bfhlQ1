@@ -40,7 +40,7 @@ app.post("/bfhl", async (req, res) => {
       }
     });
 
-    const user_id = `${full_name.toLowerCase().replace(/\s/g, "_")}_${dob}`;
+    const user_id = "Vishwanatha_S_K_V_R_Kurella_08122003";
 
     res.json({
       is_success: true,
