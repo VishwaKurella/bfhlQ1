@@ -25,7 +25,7 @@ function App() {
     try {
       const normalizedInput = jsonInput.replace(/[\u201C\u201D]/g, '"');
       const parsedInput = JSON.parse(normalizedInput);
-      const res = await fetch("https://bfhl-q1-backend-vishwas-projects-ddae81cf.vercel.app", {
+      const res = await fetch("https://bfhl-q1-backend-vishwas-projects-ddae81cf.vercel.app/bfhl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
